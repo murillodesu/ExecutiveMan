@@ -37,12 +37,23 @@ See the [wiki](https://github.com/CamHenlin/ExecutiveMan/wiki) for developer inf
 - Better developer docs
 
 To run locally:
+
+Python 2.7
 ```
 git clone https://github.com/CamHenlin/ExecutiveMan.git
 
 cd ExecutiveMan
 
 python -m SimpleHTTPServer
+```
+
+Python 3
+```
+git clone https://github.com/CamHenlin/ExecutiveMan.git
+
+cd ExecutiveMan
+
+python3 -m http.server
 ```
 Then visit http://localhost:8000/index.html for minified game or http://localhost:8000/testindex.html for unminified game
 
